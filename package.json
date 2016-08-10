@@ -1,0 +1,33 @@
+{
+  "name": "timetable-calculator",
+  "version": "1.0.0",
+  "description": "A library that helps you to calculate your time slots for rendering timesheet.",
+  "main": "lib/main.js",
+  "scripts": {
+    "prepublish": "essay build",
+    "test": "essay test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zugarzeeker/timetable-calculator.git"
+  },
+  "keywords": [
+    "timetable-calculator",
+    "timesheet-calculator",
+    "timetable",
+    "timesheet"
+  ],
+  "files": [
+    "lib",
+    "src"
+  ],
+  "author": "Supanut Apikulvanich <supanut.overload@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zugarzeeker/timetable-calculator/issues"
+  },
+  "homepage": "https://github.com/zugarzeeker/timetable-calculator#readme",
+  "devDependencies": {
+    "essay": "^3.0.1"
+  }
+}

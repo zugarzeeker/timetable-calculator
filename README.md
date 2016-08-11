@@ -1,4 +1,16 @@
 # timetable-calculator
+
+[![NPM version][npm-svg]][npm]
+[![Build status][travis-svg]][travis]
+[![Code coverage][codecov-svg]][codecov]
+
+[travis]: https://travis-ci.org/zugarzeeker/timetable-calculator
+[travis-svg]: https://img.shields.io/travis/zugarzeeker/timetable-calculator.svg?style=flat
+[npm]: https://www.npmjs.com/package/timetable-calculator
+[npm-svg]: https://img.shields.io/npm/v/timetable-calculator.svg?style=flat
+[codecov]: https://codecov.io/gh/zugarzeeker/timetable-calculator/src/master/README.md
+[codecov-svg]: https://img.shields.io/codecov/c/github/zugarzeeker/timetable-calculator.svg
+
 A library that helps you to calculate your time slots for rendering timesheet or timetable.
 
 ## Getting started
@@ -23,6 +35,7 @@ export { generateTimetable } from './timetable-generator'
 
 ## Example
 `generateTimetable(timeslot)` receive timeslot as input that is `array` with key `name`, `start`, `duration` and `row`.
+
 `generateTimetable` will return `overlap` in row and sort by start and row.
 
 ```js
@@ -191,6 +204,7 @@ describe('slot-preparation', () => {
 
 ### Handle overlap slot
 `updateCountOverlapSlot` When it receives new slot, it will sum all slot each columns.
+
 `findOverlapIndex` When slots overlap in the same row, it will return a key (`overlap`) as mini row.
 
 ```js

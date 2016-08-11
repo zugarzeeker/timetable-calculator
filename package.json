@@ -1,7 +1,7 @@
 {
   "name": "timetable-calculator",
   "version": "1.0.0",
-  "description": "A library that helps you to calculate your time slots for rendering timesheet.",
+  "description": "A library that helps you to calculate your time slots for rendering timesheet or timetable.",
   "main": "lib/main.js",
   "scripts": {
     "prepublish": "essay build",
@@ -30,5 +30,8 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "essay": "^3.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.14.2"
   }
 }
